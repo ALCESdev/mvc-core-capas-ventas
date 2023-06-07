@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVentas.BLL\SistemaVentas.BLL.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Entity\SistemaVentas.Entity.csproj" />
+    <ProjectReference Include="..\SistemaVentas.IOC\SistemaVentas.IOC.csproj" />
+  </ItemGroup>
+
 </Project>
